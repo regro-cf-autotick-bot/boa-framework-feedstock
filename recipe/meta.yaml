@@ -1,5 +1,5 @@
 {% set name = "boa-framework" %}
-{% set version = "0.8.8" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 85c37698570358387642cd2dd213e8d0adacbad065bc38048af1208220c73317
+  sha256: d58ac3ffb42681509a0c89486997f98be7fb82b54aae32e1c55e57ecc839af0b
 
 build:
   noarch: python
@@ -34,7 +34,8 @@ requirements:
     - notebook >=5.3
     - ipywidgets >=7.5
     - ax-platform ==0.3.3
-    - PyYAML
+    - ruamel.yaml
+    - attrs
 
 
 test:
