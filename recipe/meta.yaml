@@ -25,6 +25,7 @@ requirements:
     - pytorch >=2.0
     - botorch ==0.8.5
     - gpytorch ==1.10
+    - linear-operator ==0.4.0
     - numpy
     - pandas
     - scipy
