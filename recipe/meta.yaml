@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 3
 
 requirements:
   host:
@@ -24,6 +24,7 @@ requirements:
     - python >=3.8
     - pytorch >=2.0
     - botorch ==0.8.5
+    - gpytorch ==1.10
     - numpy
     - pandas
     - scipy
