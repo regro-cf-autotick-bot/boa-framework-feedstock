@@ -23,7 +23,6 @@ requirements:
   run:
     - python >=3.8
     - pytorch >=2.0
-    - botorch
     - numpy
     - pandas
     - scipy
