@@ -38,6 +38,7 @@ requirements:
     - ax-platform ==0.3.3
     - ruamel.yaml
     - attrs
+    - jinja2
 
 
 test:
