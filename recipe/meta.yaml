@@ -1,5 +1,5 @@
 {% set name = "boa-framework" %}
-{% set version = "0.9.4" %}
+{% set version = "0.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 67e26888057d45c351d48c37576b206a9cbe27f6a0c46dc4e5ce9660d4466612
+  sha256: 5e4a08bc7f3fd8db67081f0d93d1125d12213b3383f7cd650f01b1f670741694
 
 build:
   noarch: python
